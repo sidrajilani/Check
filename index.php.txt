@@ -1,0 +1,14 @@
+<form style="background-color: pink;" method="post" action=" ">
+<br>
+<p><input type="text" name="id" class="form-control col-lg-6" placeholder="Enter ID to update"></p>
+
+	<p><input type="text" name="nm" class="form-control col-lg-6" placeholder="Enter your name"></p>
+	<p><input type="text" name="enr" class="form-control col-lg-6" placeholder="Enter your Enrolment"></p>
+	<p><input type="text" name="bat" class="form-control col-lg-6" placeholder="Enter your Batch"></p>
+	<p><input type="text" name="day" class="form-control col-lg-6" placeholder="Enter your Days for Classes"></p>
+	<p><input type="text" name="tim" class="form-control col-lg-6" placeholder="Enter your Timing"></p>
+
+<input type="submit" name="btnUpdate" value="Update" class="btn btn-primary">
+
+	<input type="submit" name="btnFetch" value="Fetch data" class="btn btn-warning">
+</form>
